@@ -3,7 +3,7 @@ UDF, GenericUDF, UDTF, UDAF
 #Create a table
 Create a table named employee:
 ```sql
-CREATE TABLE employee_1(
+CREATE TABLE employee(
 	name			STRING,
 	salary			FLOAT,
 	subordinates	ARRAY<STRING>,
